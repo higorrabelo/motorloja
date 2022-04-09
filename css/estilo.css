@@ -1,0 +1,104 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background:white;
+}
+#container{
+    width:920px;
+    min-width: 640px;
+    height: 90vh;
+    margin: 40px auto;
+    padding:20px;
+    background: rgb(172, 172, 172);
+    border-radius: 12px;
+    opacity:0.6;
+}
+
+#menu{
+    margin: 20px;
+    float: right;
+    color: rgb(95, 93, 93);
+}
+#menu ul{
+    list-style: none;
+}
+#menu li{
+    display: inline;
+    margin-right: 20px;
+}
+#menu a{
+    text-decoration: none;
+    color: grey;
+}
+#menu li:hover{
+    text-decoration: none;
+    background-color: white;
+    color: grey;
+    background-size: 30px;
+}
+#conteudo-esquerda{
+    clear: both;
+    float:left;
+    width: 49%;
+    height: 80%;
+    margin-left: 10px;
+}
+#conteudo-esquerda h2{
+    font-size: large;
+    color:black;
+}
+#conteudo-esquerda p{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: justify;
+    font-size:15px;
+    color:black;
+}
+#conteudo-direita{
+    float:right;
+    width: 49%;
+    height: 80%;
+}
+#conteudo-direita img{
+    height:100%;
+    width: 100%;
+}
+
+#contato{
+    clear: both;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+#contato fieldset{
+    display: block;
+    border-radius: 6px;
+    padding: 20px;
+}
+#contato fieldset label{
+    display: block;
+}
+#contato input{
+    display: block;
+    padding-left: 15px;
+    height: 35px;
+    width: 97%;
+    border: none;
+    border-radius: 7px;
+    background-color: white;
+}
+#contato textarea{
+    margin: 20px auto;
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+#container .produto{
+    height: 100px;
+    width: 100px;
+    background-color:black;
+}
